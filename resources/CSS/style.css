@@ -72,5 +72,18 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     border-radius: 25px;
-  }
+    border: none;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.2s;
+}
+
+  .start-row:hover {
+    box-shadow:  0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.start-row:active {
+  box-shadow:  0 8px 16px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+}
+
   
